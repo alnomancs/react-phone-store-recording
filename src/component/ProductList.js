@@ -10,7 +10,7 @@ class ProductList extends Component {
       <React.Fragment>
         <div className="py-5">
           <div className="container">
-            <Title title="Products" name="Our"></Title>
+            <Title title="phones" name="Our"></Title>
             <div className="row">
               <ProductConsumer>
                 {(value) => {
