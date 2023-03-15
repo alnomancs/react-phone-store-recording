@@ -5,11 +5,10 @@ import Title from "./Title";
 import { ProductConsumer } from "./context";
 
 class ProductList extends Component {
-
   render() {
     return (
       <React.Fragment>
-        <div className="py-5 border border-1 border-primary">
+        <div className="py-5">
           <div className="container">
             <Title title="Products" name="Our"></Title>
             <div className="row">
